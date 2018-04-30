@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "欢迎使用一键搭建"
-echo "即将搭建的是4.30版本，本地地图版"
+echo "即将搭建的是4.30版本"
 echo "准备开始安装"
 read -p "回车后开始安装"
 echo "请输入你的内网ip" 
@@ -29,7 +29,7 @@ make
 make install
 
 cd /root
-cd PUBG-Cloud-Radar/
+cd PUBG/
 npm i
 npm i -g pino
 npm install -g forever
